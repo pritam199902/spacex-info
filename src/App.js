@@ -7,7 +7,7 @@ import Launch from "./component/Launch"
 
 
 const client = new ApolloClient({
-  uri: "http://localhost:5000/graphql",
+  uri: "https://secure-garden-37945.herokuapp.com/graphql",
   cache: new InMemoryCache()
 })
 
